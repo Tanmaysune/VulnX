@@ -1,0 +1,47 @@
+===================================================================
+ VulnX Report
+ Target      : https://example.com
+ Scan Date   : Monday 20 July 2026 05:35:01 PM IST
+ Modules Run : dns headers ssl files cms ports subdomains extra
+===================================================================
+
+SUMMARY
+-------
+Total Findings : 10
+  HIGH         : 2
+  MEDIUM       : 2
+  LOW          : 4
+  INFO         : 2
+
+DETAILED FINDINGS
+-----------------
+[MED ] (headers) Missing Strict-Transport-Security
+        HSTS not enforced; site vulnerable to SSL-stripping/downgrade attacks
+
+[MED ] (headers) Missing Content-Security-Policy
+        No CSP; increases risk/impact of XSS attacks
+
+[LOW ] (headers) Missing X-Frame-Options
+        Site may be vulnerable to clickjacking
+
+[LOW ] (headers) Missing X-Content-Type-Options
+        MIME-sniffing not disabled; risk of content-type attacks
+
+[LOW ] (headers) Missing Referrer-Policy
+        No referrer policy; may leak URLs to third parties
+
+[LOW ] (headers) Missing Permissions-Policy
+        No Permissions-Policy; browser features not restricted
+
+[INFO] (headers) Server header disclosed
+        Server: cloudflare
+
+[HIGH] (ssl) Weak TLS/SSL protocol supported
+        Server accepts deprecated protocol: tls1
+
+[HIGH] (ssl) Weak TLS/SSL protocol supported
+        Server accepts deprecated protocol: tls1_1
+
+[INFO] (extra) WAF/CDN detected
+        Cloudflare — active scan results may be filtered/rate-limited by this layer
+
