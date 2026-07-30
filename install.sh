@@ -34,3 +34,4 @@ for dep in "${MISSING[@]}"; do
 done
 
 echo "✅ Setup complete. Run: ./vulnscan.sh -u https://your-target.com"
+

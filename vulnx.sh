@@ -3,10 +3,8 @@
 # ==============================================================================
 #  VulnX — Website Reconnaissance & Vulnerability Assessment Tool
 # ==============================================================================
-#  Author  : <Your Name>
-#  Purpose : PGCP-ITISS Mini Project — GenAI-assisted security tooling
-#  License : MIT
-#
+#  Author  : Tanmay sune
+
 #  DISCLAIMER:
 #  This tool is for EDUCATIONAL and AUTHORIZED SECURITY TESTING purposes only.
 #  Only scan targets you own or have explicit written permission to test.
@@ -58,11 +56,11 @@ BOLD='\033[1m'; DIM='\033[2m'; NC='\033[0m'
 # ------------------------------------------------------------------------------
 banner() {
     local lines=(
-'__     __     _    ____                  _     _ _'
-'\ \   / /   _| |  / ___|  ___ __ _ _ __ | |   (_) |_ ___'
-' \ \ / / | | | |  \___ \ / __/ _` | '"'"'_ \| |   | | __/ _ \'
-'  \ V /| |_| | |   ___) | (_| (_| | | | | |___| | ||  __/'
-'   \_/  \__,_|_|  |____/ \___\__,_|_| |_|_____|_|\__\___|'
+				'__     __     _      __  __'
+				'\ \   / /   _| |_ __ \ \/ /'
+				' \ \ / / | | | | '"'"'_ \ \  / '
+				'  \ V /| |_| | | | | |/  \ '
+				'   \_/  \__,_|_|_| |_/_/\_\'
     )
     local colors=("$MAGENTA" "$PURPLE" "$BLUE" "$TEAL" "$CYAN")
     local i=0
@@ -73,8 +71,8 @@ banner() {
         printf '%b\n' "${NC}"
         i=$((i+1))
     done
-    echo -e "${BOLD}${ORANGE}        Website Recon & Vulnerability Assessment Toolkit${NC}"
-    echo -e "${DIM}${CYAN}                         v${VERSION}${NC}\n"
+    echo -e "${BOLD}${ORANGE}Website Recon & Vulnerability Assessment Toolkit${NC}"
+    echo -e "${DIM}${CYAN}          v${VERSION}${NC}\n"
 }
 
 # ------------------------------------------------------------------------------
