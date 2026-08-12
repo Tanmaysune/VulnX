@@ -1,99 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="561" height="255" viewBox="0 0 561 255" role="img" aria-label="VulnX">
-  <defs>
-    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff5cc0"/>
-      <stop offset="1" stop-color="#e12ea9"/>
-    </linearGradient>
-  </defs>
-
-  <!-- terminal window -->
-  <rect x="0.5" y="0.5" width="560" height="254" rx="10" fill="#0d0a12" stroke="#2a2233" stroke-width="1"/>
-  <rect x="0.5" y="0.5" width="560" height="34" rx="10" fill="#1a1522"/>
-  <rect x="0.5" y="24" width="560" height="10" fill="#1a1522"/>
-  <circle cx="22" cy="17" r="5.5" fill="#ff5f56"/>
-  <circle cx="42" cy="17" r="5.5" fill="#ffbd2e"/>
-  <circle cx="62" cy="17" r="5.5" fill="#27c93f"/>
-
-  <!-- command prompt line -->
-  <text x="34" y="60" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="14">
-    <tspan fill="#5df08f">tanmay@vulnx</tspan><tspan fill="#7b6f8c">:~$</tspan><tspan fill="#d7d0e0"> figlet VulnX</tspan>
-  </text>
-
-  <!-- pixel wordmark -->
-  <g fill="url(#ink)">
-    <rect x="34" y="80" width="15" height="15"/>
-    <rect x="102" y="80" width="15" height="15"/>
-    <rect x="34" y="97" width="15" height="15"/>
-    <rect x="102" y="97" width="15" height="15"/>
-    <rect x="34" y="114" width="15" height="15"/>
-    <rect x="102" y="114" width="15" height="15"/>
-    <rect x="34" y="131" width="15" height="15"/>
-    <rect x="102" y="131" width="15" height="15"/>
-    <rect x="51" y="148" width="15" height="15"/>
-    <rect x="85" y="148" width="15" height="15"/>
-    <rect x="51" y="165" width="15" height="15"/>
-    <rect x="85" y="165" width="15" height="15"/>
-    <rect x="68" y="182" width="15" height="15"/>
-    <rect x="136" y="80" width="15" height="15"/>
-    <rect x="204" y="80" width="15" height="15"/>
-    <rect x="136" y="97" width="15" height="15"/>
-    <rect x="204" y="97" width="15" height="15"/>
-    <rect x="136" y="114" width="15" height="15"/>
-    <rect x="204" y="114" width="15" height="15"/>
-    <rect x="136" y="131" width="15" height="15"/>
-    <rect x="204" y="131" width="15" height="15"/>
-    <rect x="136" y="148" width="15" height="15"/>
-    <rect x="204" y="148" width="15" height="15"/>
-    <rect x="136" y="165" width="15" height="15"/>
-    <rect x="204" y="165" width="15" height="15"/>
-    <rect x="153" y="182" width="15" height="15"/>
-    <rect x="170" y="182" width="15" height="15"/>
-    <rect x="187" y="182" width="15" height="15"/>
-    <rect x="238" y="80" width="15" height="15"/>
-    <rect x="238" y="97" width="15" height="15"/>
-    <rect x="238" y="114" width="15" height="15"/>
-    <rect x="238" y="131" width="15" height="15"/>
-    <rect x="238" y="148" width="15" height="15"/>
-    <rect x="238" y="165" width="15" height="15"/>
-    <rect x="238" y="182" width="15" height="15"/>
-    <rect x="255" y="182" width="15" height="15"/>
-    <rect x="272" y="182" width="15" height="15"/>
-    <rect x="289" y="182" width="15" height="15"/>
-    <rect x="306" y="182" width="15" height="15"/>
-    <rect x="340" y="80" width="15" height="15"/>
-    <rect x="408" y="80" width="15" height="15"/>
-    <rect x="340" y="97" width="15" height="15"/>
-    <rect x="357" y="97" width="15" height="15"/>
-    <rect x="408" y="97" width="15" height="15"/>
-    <rect x="340" y="114" width="15" height="15"/>
-    <rect x="357" y="114" width="15" height="15"/>
-    <rect x="408" y="114" width="15" height="15"/>
-    <rect x="340" y="131" width="15" height="15"/>
-    <rect x="374" y="131" width="15" height="15"/>
-    <rect x="408" y="131" width="15" height="15"/>
-    <rect x="340" y="148" width="15" height="15"/>
-    <rect x="391" y="148" width="15" height="15"/>
-    <rect x="408" y="148" width="15" height="15"/>
-    <rect x="340" y="165" width="15" height="15"/>
-    <rect x="391" y="165" width="15" height="15"/>
-    <rect x="408" y="165" width="15" height="15"/>
-    <rect x="340" y="182" width="15" height="15"/>
-    <rect x="408" y="182" width="15" height="15"/>
-    <rect x="442" y="80" width="15" height="15"/>
-    <rect x="510" y="80" width="15" height="15"/>
-    <rect x="442" y="97" width="15" height="15"/>
-    <rect x="510" y="97" width="15" height="15"/>
-    <rect x="459" y="114" width="15" height="15"/>
-    <rect x="493" y="114" width="15" height="15"/>
-    <rect x="476" y="131" width="15" height="15"/>
-    <rect x="459" y="148" width="15" height="15"/>
-    <rect x="493" y="148" width="15" height="15"/>
-    <rect x="442" y="165" width="15" height="15"/>
-    <rect x="510" y="165" width="15" height="15"/>
-    <rect x="442" y="182" width="15" height="15"/>
-    <rect x="510" y="182" width="15" height="15"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-label="VulnX">
+  <rect x="0" y="0" width="840" height="190" fill="#300a24"/>
+  <g font-family="'DejaVu Sans Mono', 'Courier New', monospace" font-size="23" fill="#f3eef2" font-weight="bold">
+    <text xml:space="preserve" x="34" y="48.4">:::      .::....    ::: :::   :::.    :::.  .,::      .:</text>
+    <text xml:space="preserve" x="34" y="69.6">';;,   ,;;;' ;;     ;;; ;;;   `;;;;,  `;;;  `;;;,  .,;; </text>
+    <text xml:space="preserve" x="34" y="90.7"> \[[  .[[/  [['     [[[ [[[     [[[[[. '[[    '[[,,[['  </text>
+    <text xml:space="preserve" x="34" y="111.9">  Y$c.$$"   $$      $$$ $$'     $$$ "Y$c$$     Y$$$P    </text>
+    <text xml:space="preserve" x="34" y="133.0">   Y88P     88    .d888o88oo,.__888    Y88   oP"``"Yo,  </text>
+    <text xml:space="preserve" x="34" y="154.2">    MP       "YmmMMMM""""""YUMMMMMM     YM,m"       "Mm,</text>
   </g>
-
-  <!-- tagline printed under the wordmark -->
-  <text x="34" y="225" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="13" fill="#9a8fb0">&gt; Website Recon &amp; Vulnerability Assessment Toolkit</text>
 </svg>
