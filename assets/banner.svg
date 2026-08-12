@@ -1,127 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="660" height="256" viewBox="0 0 660 256" role="img" aria-label="VulnX">
+<svg xmlns="http://www.w3.org/2000/svg" width="561" height="255" viewBox="0 0 561 255" role="img" aria-label="VulnX">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#14101c"/>
-      <stop offset="1" stop-color="#0b0810"/>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5cc0"/>
+      <stop offset="1" stop-color="#e12ea9"/>
     </linearGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff3fb4"/>
-      <stop offset="0.5" stop-color="#e935ff"/>
-      <stop offset="1" stop-color="#8b5cff"/>
-    </linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3.2" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <mask id="letters">
-      <g fill="#ffffff">
-    <rect x="40" y="46" width="18" height="18" rx="2"/>
-    <rect x="120" y="46" width="18" height="18" rx="2"/>
-    <rect x="40" y="66" width="18" height="18" rx="2"/>
-    <rect x="120" y="66" width="18" height="18" rx="2"/>
-    <rect x="40" y="86" width="18" height="18" rx="2"/>
-    <rect x="120" y="86" width="18" height="18" rx="2"/>
-    <rect x="40" y="106" width="18" height="18" rx="2"/>
-    <rect x="120" y="106" width="18" height="18" rx="2"/>
-    <rect x="60" y="126" width="18" height="18" rx="2"/>
-    <rect x="100" y="126" width="18" height="18" rx="2"/>
-    <rect x="60" y="146" width="18" height="18" rx="2"/>
-    <rect x="100" y="146" width="18" height="18" rx="2"/>
-    <rect x="80" y="166" width="18" height="18" rx="2"/>
-    <rect x="160" y="46" width="18" height="18" rx="2"/>
-    <rect x="240" y="46" width="18" height="18" rx="2"/>
-    <rect x="160" y="66" width="18" height="18" rx="2"/>
-    <rect x="240" y="66" width="18" height="18" rx="2"/>
-    <rect x="160" y="86" width="18" height="18" rx="2"/>
-    <rect x="240" y="86" width="18" height="18" rx="2"/>
-    <rect x="160" y="106" width="18" height="18" rx="2"/>
-    <rect x="240" y="106" width="18" height="18" rx="2"/>
-    <rect x="160" y="126" width="18" height="18" rx="2"/>
-    <rect x="240" y="126" width="18" height="18" rx="2"/>
-    <rect x="160" y="146" width="18" height="18" rx="2"/>
-    <rect x="240" y="146" width="18" height="18" rx="2"/>
-    <rect x="180" y="166" width="18" height="18" rx="2"/>
-    <rect x="200" y="166" width="18" height="18" rx="2"/>
-    <rect x="220" y="166" width="18" height="18" rx="2"/>
-    <rect x="280" y="46" width="18" height="18" rx="2"/>
-    <rect x="280" y="66" width="18" height="18" rx="2"/>
-    <rect x="280" y="86" width="18" height="18" rx="2"/>
-    <rect x="280" y="106" width="18" height="18" rx="2"/>
-    <rect x="280" y="126" width="18" height="18" rx="2"/>
-    <rect x="280" y="146" width="18" height="18" rx="2"/>
-    <rect x="280" y="166" width="18" height="18" rx="2"/>
-    <rect x="300" y="166" width="18" height="18" rx="2"/>
-    <rect x="320" y="166" width="18" height="18" rx="2"/>
-    <rect x="340" y="166" width="18" height="18" rx="2"/>
-    <rect x="360" y="166" width="18" height="18" rx="2"/>
-    <rect x="400" y="46" width="18" height="18" rx="2"/>
-    <rect x="480" y="46" width="18" height="18" rx="2"/>
-    <rect x="400" y="66" width="18" height="18" rx="2"/>
-    <rect x="420" y="66" width="18" height="18" rx="2"/>
-    <rect x="480" y="66" width="18" height="18" rx="2"/>
-    <rect x="400" y="86" width="18" height="18" rx="2"/>
-    <rect x="420" y="86" width="18" height="18" rx="2"/>
-    <rect x="480" y="86" width="18" height="18" rx="2"/>
-    <rect x="400" y="106" width="18" height="18" rx="2"/>
-    <rect x="440" y="106" width="18" height="18" rx="2"/>
-    <rect x="480" y="106" width="18" height="18" rx="2"/>
-    <rect x="400" y="126" width="18" height="18" rx="2"/>
-    <rect x="460" y="126" width="18" height="18" rx="2"/>
-    <rect x="480" y="126" width="18" height="18" rx="2"/>
-    <rect x="400" y="146" width="18" height="18" rx="2"/>
-    <rect x="460" y="146" width="18" height="18" rx="2"/>
-    <rect x="480" y="146" width="18" height="18" rx="2"/>
-    <rect x="400" y="166" width="18" height="18" rx="2"/>
-    <rect x="480" y="166" width="18" height="18" rx="2"/>
-    <rect x="520" y="46" width="18" height="18" rx="2"/>
-    <rect x="600" y="46" width="18" height="18" rx="2"/>
-    <rect x="520" y="66" width="18" height="18" rx="2"/>
-    <rect x="600" y="66" width="18" height="18" rx="2"/>
-    <rect x="540" y="86" width="18" height="18" rx="2"/>
-    <rect x="580" y="86" width="18" height="18" rx="2"/>
-    <rect x="560" y="106" width="18" height="18" rx="2"/>
-    <rect x="540" y="126" width="18" height="18" rx="2"/>
-    <rect x="580" y="126" width="18" height="18" rx="2"/>
-    <rect x="520" y="146" width="18" height="18" rx="2"/>
-    <rect x="600" y="146" width="18" height="18" rx="2"/>
-    <rect x="520" y="166" width="18" height="18" rx="2"/>
-    <rect x="600" y="166" width="18" height="18" rx="2"/>
-      </g>
-    </mask>
   </defs>
 
-  <!-- backdrop -->
-  <rect x="0" y="0" width="660" height="256" rx="16" fill="url(#panel)"/>
-  <rect x="1.5" y="1.5" width="657" height="253" rx="15" fill="none" stroke="#ff3fb4" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- terminal window -->
+  <rect x="0.5" y="0.5" width="560" height="254" rx="10" fill="#0d0a12" stroke="#2a2233" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="560" height="34" rx="10" fill="#1a1522"/>
+  <rect x="0.5" y="24" width="560" height="10" fill="#1a1522"/>
+  <circle cx="22" cy="17" r="5.5" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="5.5" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="5.5" fill="#27c93f"/>
 
-  <!-- wordmark (with a soft glow pulse) -->
-  <g filter="url(#glow)">
-    <g fill="url(#ink)" mask="url(#letters)">
-      <rect x="0" y="0" width="660" height="256"/>
-    </g>
-    <animate attributeName="opacity" values="1;0.82;1" dur="2.8s" repeatCount="indefinite"/>
+  <!-- command prompt line -->
+  <text x="34" y="60" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="14">
+    <tspan fill="#5df08f">tanmay@vulnx</tspan><tspan fill="#7b6f8c">:~$</tspan><tspan fill="#d7d0e0"> figlet VulnX</tspan>
+  </text>
+
+  <!-- pixel wordmark -->
+  <g fill="url(#ink)">
+    <rect x="34" y="80" width="15" height="15"/>
+    <rect x="102" y="80" width="15" height="15"/>
+    <rect x="34" y="97" width="15" height="15"/>
+    <rect x="102" y="97" width="15" height="15"/>
+    <rect x="34" y="114" width="15" height="15"/>
+    <rect x="102" y="114" width="15" height="15"/>
+    <rect x="34" y="131" width="15" height="15"/>
+    <rect x="102" y="131" width="15" height="15"/>
+    <rect x="51" y="148" width="15" height="15"/>
+    <rect x="85" y="148" width="15" height="15"/>
+    <rect x="51" y="165" width="15" height="15"/>
+    <rect x="85" y="165" width="15" height="15"/>
+    <rect x="68" y="182" width="15" height="15"/>
+    <rect x="136" y="80" width="15" height="15"/>
+    <rect x="204" y="80" width="15" height="15"/>
+    <rect x="136" y="97" width="15" height="15"/>
+    <rect x="204" y="97" width="15" height="15"/>
+    <rect x="136" y="114" width="15" height="15"/>
+    <rect x="204" y="114" width="15" height="15"/>
+    <rect x="136" y="131" width="15" height="15"/>
+    <rect x="204" y="131" width="15" height="15"/>
+    <rect x="136" y="148" width="15" height="15"/>
+    <rect x="204" y="148" width="15" height="15"/>
+    <rect x="136" y="165" width="15" height="15"/>
+    <rect x="204" y="165" width="15" height="15"/>
+    <rect x="153" y="182" width="15" height="15"/>
+    <rect x="170" y="182" width="15" height="15"/>
+    <rect x="187" y="182" width="15" height="15"/>
+    <rect x="238" y="80" width="15" height="15"/>
+    <rect x="238" y="97" width="15" height="15"/>
+    <rect x="238" y="114" width="15" height="15"/>
+    <rect x="238" y="131" width="15" height="15"/>
+    <rect x="238" y="148" width="15" height="15"/>
+    <rect x="238" y="165" width="15" height="15"/>
+    <rect x="238" y="182" width="15" height="15"/>
+    <rect x="255" y="182" width="15" height="15"/>
+    <rect x="272" y="182" width="15" height="15"/>
+    <rect x="289" y="182" width="15" height="15"/>
+    <rect x="306" y="182" width="15" height="15"/>
+    <rect x="340" y="80" width="15" height="15"/>
+    <rect x="408" y="80" width="15" height="15"/>
+    <rect x="340" y="97" width="15" height="15"/>
+    <rect x="357" y="97" width="15" height="15"/>
+    <rect x="408" y="97" width="15" height="15"/>
+    <rect x="340" y="114" width="15" height="15"/>
+    <rect x="357" y="114" width="15" height="15"/>
+    <rect x="408" y="114" width="15" height="15"/>
+    <rect x="340" y="131" width="15" height="15"/>
+    <rect x="374" y="131" width="15" height="15"/>
+    <rect x="408" y="131" width="15" height="15"/>
+    <rect x="340" y="148" width="15" height="15"/>
+    <rect x="391" y="148" width="15" height="15"/>
+    <rect x="408" y="148" width="15" height="15"/>
+    <rect x="340" y="165" width="15" height="15"/>
+    <rect x="391" y="165" width="15" height="15"/>
+    <rect x="408" y="165" width="15" height="15"/>
+    <rect x="340" y="182" width="15" height="15"/>
+    <rect x="408" y="182" width="15" height="15"/>
+    <rect x="442" y="80" width="15" height="15"/>
+    <rect x="510" y="80" width="15" height="15"/>
+    <rect x="442" y="97" width="15" height="15"/>
+    <rect x="510" y="97" width="15" height="15"/>
+    <rect x="459" y="114" width="15" height="15"/>
+    <rect x="493" y="114" width="15" height="15"/>
+    <rect x="476" y="131" width="15" height="15"/>
+    <rect x="459" y="148" width="15" height="15"/>
+    <rect x="493" y="148" width="15" height="15"/>
+    <rect x="442" y="165" width="15" height="15"/>
+    <rect x="510" y="165" width="15" height="15"/>
+    <rect x="442" y="182" width="15" height="15"/>
+    <rect x="510" y="182" width="15" height="15"/>
   </g>
 
-  <!-- animated shine sweeping across the letters -->
-  <g mask="url(#letters)">
-    <rect x="0" y="0" width="180" height="256" fill="url(#shine)" opacity="0.55">
-      <animate attributeName="x" from="-200" to="660" dur="3.4s" begin="0.6s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- tagline -->
-  <g transform="translate(330, 226)" text-anchor="middle" font-family="'Courier New', monospace">
-    <text x="0" y="0" fill="#c9b8e8" font-size="17" letter-spacing="4" font-weight="bold">WEBSITE RECON &amp; VULNERABILITY ASSESSMENT</text>
-    <rect x="196" y="-14" width="10" height="18" fill="#ff3fb4">
-      <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+  <!-- tagline printed under the wordmark -->
+  <text x="34" y="225" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="13" fill="#9a8fb0">&gt; Website Recon &amp; Vulnerability Assessment Toolkit</text>
 </svg>

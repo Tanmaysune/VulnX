@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="VulnX" width="640">
+<img src="assets/banner.svg" alt="VulnX" width="560">
 
 <br>
 
