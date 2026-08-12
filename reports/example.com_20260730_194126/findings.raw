@@ -1,7 +1,0 @@
-MED|headers|Missing Strict-Transport-Security|HSTS not enforced; site vulnerable to SSL-stripping/downgrade attacks
-MED|headers|Missing Content-Security-Policy|No CSP; increases risk/impact of XSS attacks
-LOW|headers|Missing X-Frame-Options|Site may be vulnerable to clickjacking
-LOW|headers|Missing X-Content-Type-Options|MIME-sniffing not disabled; risk of content-type attacks
-LOW|headers|Missing Referrer-Policy|No referrer policy; may leak URLs to third parties
-LOW|headers|Missing Permissions-Policy|No Permissions-Policy; browser features not restricted
-INFO|headers|Server header disclosed|Server: cloudflare

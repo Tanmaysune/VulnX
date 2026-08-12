@@ -33,5 +33,5 @@ for dep in "${MISSING[@]}"; do
     esac
 done
 
-echo "✅ Setup complete. Run: ./vulnscan.sh -u https://your-target.com"
+echo "Setup complete. Run: ./vulnx.sh -u https://your-target.com"
 

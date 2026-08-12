@@ -1,4 +1,0 @@
-notBefore=May 31 21:39:12 2026 GMT
-notAfter=Aug 29 21:41:26 2026 GMT
-subject=CN=example.com
-issuer=C=US, O=SSL Corporation, CN=Cloudflare TLS Issuing ECC CA 3

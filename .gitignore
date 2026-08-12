@@ -1,0 +1,7 @@
+# Generated scan output — created fresh on every run
+reports/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="502" viewBox="0 0 760 502" role="img" aria-label="VulnX demo run">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171320"/>
+      <stop offset="1" stop-color="#0d0a14"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="759" height="501" rx="12" fill="url(#win)" stroke="#3a2b52" stroke-width="1"/>
+  <!-- title bar -->
+  <rect x="0.5" y="0.5" width="759" height="38" rx="12" fill="#221a33"/>
+  <rect x="0.5" y="26" width="759" height="13" fill="#221a33"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="380" y="24" text-anchor="middle" fill="#9a86c4" font-family="'Courier New', monospace" font-size="13">vulnx  —  terminal</text>
+  <g font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" letter-spacing="0.2">
+    <text x="26" y="64" fill="#7ef7c4" opacity="0">$ ./vulnx.sh -u https://example.com<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.000;0.020;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="116" fill="#e935ff" opacity="0">  ==&gt; DNS &amp; WHOIS Reconnaissance<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.096;0.116;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="142" fill="#7ef7c4" opacity="0">  [+]  Resolved IP: 93.184.216.34<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.144;0.164;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="168" fill="#e935ff" opacity="0">  ==&gt; HTTP Security Header Analysis<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.192;0.212;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="194" fill="#f5a623" opacity="0">  [MED]  Missing Content-Security-Policy<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.240;0.260;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="220" fill="#f5a623" opacity="0">  [MED]  Missing Strict-Transport-Security<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.288;0.308;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="246" fill="#e935ff" opacity="0">  ==&gt; Sensitive File &amp; Path Disclosure<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.336;0.356;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="272" fill="#ff5f6d" opacity="0">  [HIGH] Sensitive file exposed  -&gt;  /backup.zip<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.384;0.404;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="298" fill="#e935ff" opacity="0">  ==&gt; SSL/TLS Configuration Check<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.432;0.452;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="324" fill="#7ef7c4" opacity="0">  [+]  Certificate valid, expires in 74 days<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.480;0.500;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="350" fill="#e935ff" opacity="0">  ==&gt; Real-World Exploit Surface Checks<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.528;0.548;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="376" fill="#f5a623" opacity="0">  [MED]  CORS reflects arbitrary Origin<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.576;0.596;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="428" fill="#c9b8e8" opacity="0">  ==&gt; Scan Complete   Findings: 20   H:8  M:2  L:5  I:5<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.672;0.692;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <text x="26" y="454" fill="#7ef7c4" opacity="0">  [+]  Reports: report.txt  report.html  report.json<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.720;0.740;0.965;1" dur="7.2s" repeatCount="indefinite"/></text>
+    <rect x="26" y="443" width="9" height="16" fill="#7ef7c4"><animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
